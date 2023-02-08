@@ -45,8 +45,7 @@ API
 
 ## 🔭 Key Features <a name="Key-features"></a>
 
-- **[Add tasks]**
-- **[Remove tasks ]**
+- **[Add score]**
 - **[Edit tasks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
