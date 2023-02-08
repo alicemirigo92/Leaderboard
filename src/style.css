@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scores header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+ul {
+  border: 1px solid #000;
+  list-style: none;
+  padding-left: 0;
+}
+
+li:nth-child(even) {
+  background: rosybrown;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 6px;
+}
