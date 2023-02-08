@@ -10,13 +10,6 @@
     "build": "webpack",
     "deploy": "gh-pages -d dist"
   },
-  "jest": {
-    "verbose": true,
-    "testEnvironment": "jsdom",
-    "setupFiles": [
-      "jest-localstorage-mock"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alicemirigo92/Leaderboard"
