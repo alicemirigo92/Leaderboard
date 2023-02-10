@@ -2,52 +2,52 @@ body {
   background-image: url(./images/premier\ 2.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  color: #6cd9a8;
+  color: #0d9b5b;
 }
 
 h1 {
-  margin: 40px;
-  font-size: 40px;
+  margin: 45px;
+  font-size: 46px;
+  color: #030605;
+
 }
 
 main {
   display: flex;
-  margin: 20px 40px;
+  margin: 30px 30px;
   justify-content: space-between;
 }
 
 .score-display {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .top-display {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 35vw;
+  width: 34vw;
 }
 
 #refresh-btn {
-  width: 80px;
-  height: 30px;
+  width: 85px;
+  height: 35px;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
-
-  /* outline: none; */
+  border-radius: 5px;
   font-weight: bold;
   background-color: rgba(175, 169, 163, 1);
 }
 
 #refresh-btn:hover {
-  background-color: #6cd9a8;
+  background-color: #1e382c;
 }
 
 .scores-display {
-  width: 35vw;
-  border-radius: 8px;
+  width: 37vw;
+  border-radius: 7px;
   background-color: rgba(236, 229, 221, 0.6);
 }
 
@@ -55,14 +55,14 @@ main {
   display: flex;
   justify-content: space-between;
   border: 1px solid grey;
-  padding: 10px 24px;
-  font-size: 18px;
+  padding: 12px 23px;
+  font-size: 19px;
   font-weight: bold;
   color: black;
 }
 
 .rendered-scores:first-child {
-  border-radius: 8px 8px 0 0;
+  border-radius: 9px 9px 0 0;
 }
 
 .rendered-scores:nth-child(even) {
@@ -70,45 +70,43 @@ main {
 }
 
 .rendered-scores:last-child {
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 9px 9px;
 }
 
 .add-score {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 21px;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
-  width: 25vw;
-  gap: 30px;
+  width: 26vw;
+  gap: 29px;
 }
 
 #name-id,
 #score-area {
-  height: 40px;
-  background-color: rgba(175, 169, 163, 0.6);
+  height: 41px;
+  background-color: rgba(99, 58, 17, 0.6);
   color: black;
 }
 
 #name-id::placeholder,
 #score-area::placeholder {
-  color: #6cd9a8;
-  padding-left: 10px;
+  color: #030605;
+  padding-left: 12px;
   font-weight: bold;
 }
 
 .submit-Btn {
-  padding: 10px 0;
+  padding: 11px 0;
   width: 100px;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   border: none;
   border-radius: 4px;
-
-  /* outline: none; */
   font-weight: bold;
   background-color: rgb(95, 50, 6);
 }
