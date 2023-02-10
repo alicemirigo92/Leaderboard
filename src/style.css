@@ -6,14 +6,14 @@ body {
 }
 
 h1 {
-  margin: 45px;
-  font-size: 46px;
+  margin: 41px;
+  font-size: 41px;
   color: #030605;
 }
 
 main {
   display: flex;
-  margin: 30px 30px;
+  margin: 10px 20px;
   justify-content: space-between;
 }
 
@@ -61,7 +61,7 @@ main {
 }
 
 .rendered-scores:first-child {
-  border-radius: 9px 9px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 
 .rendered-scores:nth-child(even) {
@@ -81,13 +81,13 @@ main {
 .input-field {
   display: flex;
   flex-direction: column;
-  width: 26vw;
+  width: 24vw;
   gap: 29px;
 }
 
 #name-id,
 #score-area {
-  height: 41px;
+  height: 39px;
   background-color: rgba(99, 58, 17, 0.6);
   color: black;
 }
@@ -95,12 +95,12 @@ main {
 #name-id::placeholder,
 #score-area::placeholder {
   color: #030605;
-  padding-left: 12px;
+  padding-left: 9px;
   font-weight: bold;
 }
 
 .submit-Btn {
-  padding: 11px 0;
+  padding: 9px 0;
   width: 100px;
   font-size: 15px;
   cursor: pointer;
